@@ -1,18 +1,14 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <index />
+   <index />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import index from './page/index'
 export default {
   name: "app",
   components: {
-    HelloWorld,
     index
   },
 
@@ -22,6 +18,7 @@ export default {
 </script>
 
 <style>
+@import './sytle/common.less';
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
